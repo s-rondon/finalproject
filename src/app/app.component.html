@@ -1,36 +1,103 @@
-/*Gherany*/
-<header>
-    <h2>Casa de Arte, Santiago De Los Caballeros.</h2>
-</header>
-<footer>
-    <p>Casa de Arte, C. Benito Monción, Santiago De Los Caballeros 51000. Abierto 6AM–9PM, +1 (809) 471-7839</p>
-</footer>
-  
-/*Sebastian*ñ/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<article>
-    <p>Casa de Arte. Una organización cultural de carácter civil, privada, con personalidad jurídica, patrimonio propio y sin fines de lucro. Un punto de encuentro para mentes creativas, Casa de Arte se encuentra en el centro histórico de la ciudad de Santiago De Los Caballeros en una renovada casa victoriana. La galería va rotando sus exposiciones de artistas dominicanos, y a menudo ofrece música en vivo o actuaciones teatrales por las noches. Relájate en su agradable patio después de ver las exhibiciones.</p>p
+body {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+
+header {
+  background-color: #AAB8B6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:#545B5A;
+}
+
+nav {
+  float: left;
+  width: 40%;
+  background: #BCCBC9;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: #E9ECE6;
+  height: 1126px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #AAB8B6;
+  padding: 10px;
+  text-align: center;
+  color: #545B5A;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Casa de Arte, Santiago De Los Caballeros</h2>
+</header>
+<section>
+  <nav>
+    <h1>Las Maravillas de Casa de Arte</h1>
+    <p><i>Casa de Arte.</i> Una organización cultural de carácter civil, privada, con personalidad jurídica, patrimonio propio y sin fines de lucro. Un punto de encuentro para mentes creativas, Casa de Arte se encuentra en el centro histórico de la ciudad de Santiago De Los Caballeros en una renovada casa victoriana. La galería va rotando sus exposiciones de artistas dominicanos, y a menudo ofrece música en vivo o actuaciones teatrales por las noches. Relájate en su agradable patio después de ver las exhibiciones.</p>
     <p>Allí la expresión del arte en diversidad y libertad tiene su espacio ideal. Llegó a la vida el verano de 1893, fundada por un grupo de jóvenes artistas y distinguidos ciudadanos interesados en promover la cultura en todas sus manifestaciones.</p>
+    <ul>Cuenta con los objetivos de,
+        <ol type="a">
+            <li>Producir, fomentar y difundir el desarrollo de las artes en todas sus manifestaciones.</li>
+            <li>Brindar asesoría análogas o similares en otras comunidades del país.</li>
+            <li>Ayudar a preservar los valores locales, regionales y nacionales.</li>
+            <li>Establecer reconocimientos y premios para artistas, personalidades físicas y morales, destacadas en las diferentes áreas de la cultura.</li>
+            <li>Estimular la información y el desarrollo  y el intercambio cultural, nacional e internacional, mediante la organización de cursos.</li>
+        </ol>
+   </ul>
     <p>En general, Casa de Arte nace para impulsar los artistas alternativos y emergentes de la región y el país. Por esa razón en el ámbito del movimiento cultural y artístico dominicano  se le conoce como ”La Casa de los Artistas“, en donde confluyen todos y todas con el ánimo y el deseo de aportar a la identidad cultural de la República Dominicana.Encontrada en el centro histórico de Santiago de Los Caballeros, esta galería se especializa en el arte dominicano y sirve como un punto de encuentro para impulsar los artistas alternativos y emergentes de la región.</p>
     <p>Al propio tiempo, es con frecuencia escenario de conciertos, ensayos y montajes de obras teatrales, talleres literarios, actos de puesta en circulación de libros, así como exposiciones individuales y colectivas de pintura, dibujo y fotografía. Las exposiciones de artes plásticas, teatrales, de danza, talleres y conferencias comenzaron a crear la activa dinámica de gestión y animación cultural en el seno de la institución para elevar el espíritu creativo y participativo de los nuevos y establecidos talentos artísticos de la ciudad y el país. Para el deleite y disfrute del público de la ciudad corazón, la región y el país.</p>
+    <p>El lugar en sí ya es una actividad hermosa que se puede realizar en Santiago de los Caballeros. La Casa de Arte es un espacio donde jóvenes artistas exponen su talento y creatividad artística, en la que podrás tomarte fotos, grabar videos, escuchar la música de la calle, simplemente apreciar el escenario de conciertos,que se da con frecuencia, ensayos y montajes de obras teatrales, talleres literarios, actos de puesta en circulación de libros, así como exposiciones individuales y colectivas de pintura, dibujo y fotografía. Una experiencia que sería buena de disfrutarla con amigos y familia.</p>
 
+  </nav>
+  <article>
+    <img src="../assets/casa de arte 2.jpg" alt="Casa de Arte 2" width="795" height="510">
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <img src="../assets/casa de arte 3.JPG" alt="Casa de Arte 3" width="795" height="530">
+  </article>
+</section>
 
+<footer>
+    <p>Casa de Arte, C. Benito Monción, Santiago De Los Caballeros 51000. Abierto 6AM–9PM, +1 (809) 471-7839.</p>
+</footer>
 
-</article>
-
-/*Sarah*/
-
-/*Sofia*/
-<p>El lugar en sí ya es una actividad hermosa que se puede realizar en Santiago de los Caballeros. La Casa de Arte es un espacio donde jóvenes artistas exponen su talento y creatividad artística, en la que podrás tomarte fotos, grabar videos, escuchar la música de la calle, simplemente apreciar el escenario de conciertos,que se da con frecuencia, ensayos y montajes de obras teatrales, talleres literarios, actos de puesta en circulación de libros, así como exposiciones individuales y colectivas de pintura, dibujo y fotografía. Una experiencia que sería buena de disfrutarla con amigos y familia.</p>
-
-/*Junior*/
-<ul>Cuenta con los objetivos de,
-    <ol type="a">
-        <li>Producir, fomentar y difundir el desarrollo de las artes en todas sus manifestaciones.</li>
-        <li>Brindar asesoría análogas o similares en otras comunidades del país.</li>
-        <li>Ayudar a preservar los valores locales, regionales y nacionales.</li>
-        <li>Establecer reconocimientos y premios para artistas, personalidades físicas y morales, destacadas en las diferentes áreas de la cultura.</li>
-        <li>Estimular la información y el desarrollo  y el intercambio cultural, nacional e internacional, mediante la organización de cursos.</li>
-      </ol>
-  </ul>
-  
+</body>
+</html>
